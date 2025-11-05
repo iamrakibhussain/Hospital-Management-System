@@ -1,0 +1,19 @@
+
+#0077B6
+#02C39A
+#F0F3BD
+#FFFFFF
+#0D3B66
+
+font family = [sans-serif: fonts like Open Sans, Roboto, or Helvetica]
+
+1️⃣Bebas Neue Regular (একটাই weight)
+2️⃣	Cinzel Decorative	400, 700, 900 (তিনটা weight)
+3️⃣	Montserrat	100 → 900 (সব weight + italic version)
+4️⃣	Open Sans	300 → 800 (সব weight + italic version)
+5️⃣	Oswald	Regular (default weight set)
+6️⃣	Poppins	300, 400, 500, 600
+7️⃣	Roboto 100 → 900 (সব weight + italic version)
+
+
+        
