@@ -157,3 +157,9 @@ appointsubBtn.addEventListener('click', (event) => {
 Our team will contact you shortly.`;
 
 });
+
+const copyrightEl = document.getElementById("copyright");
+
+const year = new Date().getFullYear();
+
+copyrightEl.textContent = `© ${year} LifeTrack. All Rights Reserved.`;
