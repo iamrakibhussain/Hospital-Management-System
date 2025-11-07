@@ -6,6 +6,16 @@ fetch("header.html")
     .then(res => res.text())
     .then(data => {
         document.body.insertAdjacentHTML("afterbegin", data);
+
+        const currentPage = window.location.pathname.split("/").pop();
+        const menuItems = document.querySelectorAll(".menu-item");
+
+        menuItems.forEach(item => {
+            if (item.getAttribute("href") === currentPage) {
+                item.classList.add("active");
+            }
+        });
+
         const menuBar = document.getElementById("menubar");
         const menuClose = document.getElementById("menu-close");
         const mobileMenu = document.getElementById("mobile-menu");
